@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="hello">Hello World, ScrollViewApplication!</string>
+    <string name="app_name">Example 5-10 ScrollView</string>
+</resources>

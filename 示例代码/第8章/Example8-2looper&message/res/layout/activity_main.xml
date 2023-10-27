@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/startTaskThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:text="开始运行线程" />
+
+    <Button
+        android:id="@+id/exitApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:text="退出应用" />
+
+    <TextView
+        android:id="@+id/taskThreadOuputInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/stopTaskThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/startTaskThread"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:text="中止线程运行" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/taskThreadOuputInfo"
+        android:layout_alignParentLeft="true"
+        android:text="线程信息输出："
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

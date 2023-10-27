@@ -1,0 +1,5 @@
+<resources>
+
+     <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Example 5-9 TabHost</string>
+</resources>

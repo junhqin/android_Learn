@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.androidclient.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+     <TextView 
+          android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="请输入需要传给服务器的信息："
+        />
+    <EditText 
+          android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/et"
+            android:hint="客户端传到服务器的信息"
+        />
+    
+    <EditText 
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+         android:hint="服务器返回给客户端的信息"
+        />
+      <Button 
+         android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="客户端传递信息"
+        
+        />
+    
+    
+    </LinearLayout>

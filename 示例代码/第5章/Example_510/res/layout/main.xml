@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--通过ScrollView生成一个简单的手机报-->   
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/ScrollView01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:scrollbars="none"> 
+    <LinearLayout 
+        android:orientation="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"> 
+	    <!--TextView控件。该控件高度和宽度随内容变化-->     
+	    <TextView 
+	       android:id="@+id/textview1"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="30px"
+	       android:text="        旅游信息                           " />
+	    <!--TextView控件。该控件高度和宽度随内容变化-->  
+	    <TextView 
+	       android:id="@+id/textview2"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="20px"
+	       android:text="旅游信息导读\n" />
+	    <!--TextView控件。该控件高度和宽度随内容变化-->  
+	    <TextView 
+	       android:id="@+id/textview3"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text=" 1.我和春天有个约会 " />
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <TextView 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text=" 2.看美丽宝岛" />  
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <TextView 
+	       android:id="@+id/textview4"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text=" 3.箭扣长城攻略" />     
+	    <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <TextView 
+	       android:id="@+id/textview6"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text=" 4.杭州西溪湿地 " />  
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <TextView 
+	       android:id="@+id/textview7"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text=" 5.三月下江南 " />   
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <TextView 
+	       android:id="@+id/textview8"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text="\n手机正文 \n1.我和春天有个约会 " />
+	    <!--TextView控件。该控件高度和宽度随内容变化-->   
+	    <TextView 
+	       android:id="@+id/textview8"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="\n婺源是江西最西北部的一个县城，东临浙江省衢州市，北临安徽省黄山市。解放前是属于安徽的，无论是建筑还是民风，都属于典型的徽派文化。由于地处三省交界处的山区，交通非常不方便，导致当地经济条件相对落后。也正由于这个原因，当地的古建筑保存得很完整。" />        
+	   <!--ImageView控件。该控件高度和高度随内容变化-->         
+	   <ImageView 
+	       android:id="@+id/imageview1"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic1"/>
+	     <!--ImageView控件。该控件高度和高度随内容变化--> 
+	    <TextView 
+	       android:id="@+id/textview9"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="黄山归来不看山，婺源归来不看村。婺源乡村之美，在于浑然天成的和谐。“青山向晚盈轩翠，碧水含春傍槛流”，无论是民居还是村落的设造，无不讲究人与天、地、山、水的融洽关系，或枕山面水，或临溪而居，山山水水皆成人“家”。" />        
+	   <!--ImageView控件。该控件高度和高为200px-->  
+	   <ImageView 
+	       android:id="@+id/imageview2"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic2"/>
+	    <!--ImageView控件。该控件高度和高为300px-->          
+	   <ImageView 
+	       android:id="@+id/imageview3"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic3"/>
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <TextView 
+	       android:id="@+id/textview10"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text="\n\n2.看美丽宝岛" />
+	    <!--TextView控件。该控件高度和宽度随内容变化--> 
+	     <TextView 
+	       android:id="@+id/textview11"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="\n阿里山是台湾著名的风景区之一，有“不到阿里山，不知阿里山之美，不知阿里山之富，更不知阿里山之伟大”的说法。由于山区气候温和，盛夏时依然清爽宜人，加上林木葱翠，阿里山也是理想的避暑胜地。" />
+	    <!--ImageView控件。该控件高度和高为300px-->          
+	    <ImageView 
+	       android:id="@+id/imageview4"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic4"/>
+	     <!--TextView控件。该控件高度和宽度随内容变化-->  
+	    <TextView 
+	       android:id="@+id/textview12"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="\n由于山区气候温和，盛夏时依然清爽宜人，加上林木葱翠，阿里山也是理想的避暑胜地。" />  
+	    <!--ImageView控件。该控件高度和高为300px-->          
+	    <ImageView 
+	       android:id="@+id/imageview5"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic5"/>  
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <TextView 
+	       android:id="@+id/textview13"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text="\n\n3.箭扣长城攻略\n" />   
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	    <TextView 
+	       android:id="@+id/textview14"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="箭扣长城是一段“野长城”。北京境内的长城有629公里，其中600公里属自然状态中的“野长城”" />  
+	     <!--ImageView控件。该控件高度和高为300px--> 
+	     <ImageView 
+	       android:id="@+id/imageview6"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic6"/> 
+	      <!--TextView控件。该控件高度和宽度随内容变化-->  
+	      <TextView 
+	       android:id="@+id/textview15"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="那残破、古旧、朴拙的砖石绵延于崇山峻岭之中，荒凉不事雕琢的自然美更能令人感受长城金戈铁马的千年不屈风骨。" />  
+	      <!--ImageView控件。该控件高度和高为300px-->
+	       <ImageView 
+	       android:id="@+id/imageview7"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic7"/> 
+	     <!--TextView控件。该控件高度和宽度随内容变化--> 
+	       <TextView 
+	       android:id="@+id/textview16"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="厌倦了游人摩肩接踵，过度开发的成熟景点，“野长城”越来越显示出其独特的魅力。" />  
+	         <!--ImageView控件。该控件高度和高为300px-->
+	     <ImageView 
+	       android:id="@+id/imageview8"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic8"/> 
+	     <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <TextView 
+	       android:id="@+id/textview17"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text="\n\n4.杭州西溪湿地\n" />   
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	    <TextView 
+	       android:id="@+id/textview18"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="来西溪湿地要看野鸭。野鸭最佳的观赏点在鸭子湾，行走在烟水渔庄岸边，或是泛舟于此，总是可以看到野鸭在湖面上悠闲地游着，有时三五成群，有时则两两做伴。" />  
+	     <!--ImageView控件。该控件高度和高为300px--> 
+	     <ImageView 
+	       android:id="@+id/imageview9"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic9"/> 
+	      <!--TextView控件。该控件高度和宽度随内容变化-->  
+	      <TextView 
+	       android:id="@+id/textview19"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="西溪的景色特点是天然质朴，无论是动物还是植物，都向世人展示了最本真的面目。" />  
+	      <!--ImageView控件。该控件高度和高为300px--> 
+	     <ImageView 
+	       android:id="@+id/imageview10"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic10"/> 
+	      <!--TextView控件。该控件高度和宽度随内容变化-->  
+	      <TextView 
+	       android:id="@+id/textview20"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="在这里每个人遇到的总是不同的小鸟、野鸭、小鱼，都会有一段属于自己的美好经历。" />  
+	      <!--ImageView控件。该控件高度和高为300px--> 
+	     <ImageView 
+	       android:id="@+id/imageview11"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic11"/> 
+	      <!--TextView控件。该控件高度和宽度随内容变化-->  
+	      <TextView 
+	       android:id="@+id/textview21"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="15px"
+	       android:text="\n\n5.三月下江南 \n" />   
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	    <TextView 
+	       android:id="@+id/textview22"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content" 
+	       android:textSize="10px"
+	       android:text="里水桥相连，房屋依水而建，有水的地方就有人家，流水把整个小镇一分为二。临河的屋子，除了一小部分做了店铺，大多依旧是住在小镇的居民。" />  
+	     <!--ImageView控件。该控件高度和高为300px--> 
+	     <ImageView 
+	       android:id="@+id/imageview12"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic12"/> 
+	      <ImageView 
+	       android:id="@+id/imageview13"
+	       android:layout_width="300px" 
+	       android:layout_height="300px"
+	       android:src="@drawable/pic13"/> 
+	      <!--ImageView控件。该控件高度和高为300px-->
+	   <!--TextView控件。该控件高度和宽度随内容变化-->  
+	   <!--ImageView控件。该控件高度和高度随内容变化-->   
+    </LinearLayout> 
+</ScrollView> 

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<!--第一個TextView -->
+<TextView
+android:id="@+id/textview"
+android:layout_width="228px"
+android:layout_height="49px"
+android:text="@string/textview"
+android:textSize="30sp"
+/>
+<!--创建一個RadioGroup ，该组包含6个单选按钮-->
+<RadioGroup
+android:id="@+id/RG"
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/RG"
+>
+<!--第一個RadioButton -->
+<RadioButton
+android:id="@+id/RB1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/RB1"
+/>
+<!--第二個RadioButton -->
+<RadioButton
+android:id="@+id/RB2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/RB2"
+/>
+<!--第三個RadioButton -->
+<RadioButton
+android:id="@+id/RB3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/RB3"
+/>
+<!--第四個RadioButton -->
+<RadioButton
+android:id="@+id/RB4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/RB4"
+/>
+<!--第五個RadioButton -->
+<RadioButton
+android:id="@+id/RB5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/RB5"
+/>
+<!--第六個RadioButton -->
+<RadioButton
+android:id="@+id/RB6"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/RB6"
+/>
+</RadioGroup>
+</LinearLayout>
+
+

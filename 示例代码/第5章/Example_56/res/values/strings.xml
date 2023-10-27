@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="hello">Example_56!</string>
+    <string name="app_name">Example 5-6 RadioGroup</string>
+    <string name="textview">未选择操作系统</string>
+    <string name="RG">Select your OS：</string>
+    <string name="RB1">Android</string>
+    <string name="RB2">Sysbian</string>
+    <string name="RB3">WinCE</string>
+    <string name="RB4">PalmOS</string>
+    <string name="RB5">Linux</string>
+    <string name="RB6">iPhoneOS</string>
+
+</resources>

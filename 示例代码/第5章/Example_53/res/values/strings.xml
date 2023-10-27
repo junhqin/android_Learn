@@ -1,0 +1,8 @@
+<resources>
+	<string name="hello">Change your color here!</string>
+    <string name="app_name">Example 5-3 Button</string>
+	<string name="myButtonText1">Red button</string>
+    <string name="myButtonText2">Blue button</string>
+    <string name="myButtonText3">Yellow button</string>
+    <string name="myButtonText4">Green button</string>
+</resources>

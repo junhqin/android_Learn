@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="EasyNewsClient"
+  id="myeclipse.1429514024687"
+  context-root="/EasyNewsClient"
+  j2ee-spec="5.0"
+  archive="EasyNewsClient.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.example9_6queryphone.MainActivity" >
+
+    <TextView 
+    android:id="@+id/myTextView1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="title" 
+    android:layout_x="0px" 
+    android:layout_y="0px"> 
+  </TextView>
+    
+    <EditText
+      android:id="@+id/myEditText01"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/myEditText02"
+      android:layout_alignLeft="@+id/myTextView1"
+      android:layout_marginBottom="15dp"
+      android:ems="10"
+      android:text="name"
+      android:textSize="18sp" />
+    
+  <EditText
+      android:id="@+id/myEditText02"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/myButton1"
+      android:layout_alignLeft="@+id/myButton1"
+      android:layout_marginBottom="30dp"
+      android:ems="10"
+      android:text="telphone"
+      android:textSize="18sp" >
+
+      <requestFocus />
+  </EditText>
+
+
+    <Button
+      android:id="@+id/myButton1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/myEditText01"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="150dp"
+      android:text="button" />
+  
+
+</RelativeLayout>

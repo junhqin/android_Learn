@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:id="@+id/myTextView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"/>
+<!-- 不可编辑文本框，适用于没有文本交互的应用。-->
+<EditText  
+    android:id="@+id/ET_phonenumber"     
+    android:layout_width="fill_parent"    
+    android:layout_height="wrap_content"  
+    android:maxLength="40"  
+    android:hint="Please enter your phone"
+    android:textColorHint="#FF000000"
+    android:phoneNumber="true"
+    android:imeOptions="actionGo"
+    android:inputType="date"/>  
+<!-- 用于输入数字的文本框 ，可作为只接受电话号码输入的文本框 。-->
+<EditText  
+    android:id="@+id/ET_password"     
+    android:layout_width="fill_parent"    
+    android:layout_height="wrap_content"  
+    android:maxLength="40"  
+    android:hint="Please enter your password"
+    android:password="true"
+    android:textColorHint="#FF000000" 
+    android:imeOptions="actionSearch"
+    android:inputType="text"/> 
+ <!-- 用于输入密码的文本框 -->
+</LinearLayout>

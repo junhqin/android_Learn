@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:id="@+id/myTextView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:layout_gravity="top"
+    android:background="@drawable/WHITE"
+    />
+<Button 
+     android:id="@+id/myButton1"
+     android:layout_height="wrap_content" 
+     android:layout_width="wrap_content" 
+     android:text="@string/myButtonText1" 
+     android:layout_gravity="center"
+     android:layout_weight="1"
+    />
+<Button 
+     android:id="@+id/myButton2"
+     android:layout_height="wrap_content" 
+     android:layout_width="wrap_content" 
+     android:text="@string/myButtonText2" 
+     android:layout_gravity="center"
+     android:layout_weight="1"     
+    />
+ <Button 
+     android:id="@+id/myButton3"
+     android:layout_height="wrap_content" 
+     android:layout_width="wrap_content" 
+     android:text="@string/myButtonText3" 
+     android:layout_gravity="center"
+     android:layout_weight="1"
+    />
+ <Button 
+     android:id="@+id/myButton4"
+     android:layout_height="wrap_content" 
+     android:layout_width="wrap_content" 
+     android:text="@string/myButtonText4" 
+     android:layout_gravity="bottom"
+     android:layout_weight="1"
+     android:onClick="onButtonClick"
+    />  
+</LinearLayout>

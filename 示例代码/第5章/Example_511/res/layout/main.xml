@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ <!--ListView控件。该控件高度和宽度随内容变化，缩放模式为columnWidth-->    
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"
+    android:id="@+id/listview"  
+    android:gravity="center" />   

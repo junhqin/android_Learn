@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!--程序采用相对布局。该布局包含一个TextView、一个ImageView子元素。
+整个布局高度同父元素相同且宽度同父元素相同-->   
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_height="wrap_content" 
+    android:paddingBottom="8dip"  
+    android:layout_width="wrap_content">
+    <!--ImageView控件。该控件高度和宽度随内容变化-->    
+    <ImageView 
+       android:layout_height="wrap_content" 
+       android:id="@+id/XMLimageview"  
+       android:layout_width="wrap_content"
+       android:layout_centerHorizontal="true" 
+       android:src="@drawable/ic_launcher">   
+    </ImageView>
+     <!--TextView控件。该控件高度和宽度随内容变化-->     
+    <TextView 
+        android:layout_width="wrap_content"  
+        android:layout_below="@+id/itemImage" 
+        android:layout_height="wrap_content"  
+        android:layout_centerHorizontal="true"  
+        android:id="@+id/XMLtextview">   
+    </TextView>   
+</RelativeLayout>   

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Example2-2Activity02</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button1">切换到第2个Activity</string>
+    <string name="second">the second Activity</string>
+    
+
+</resources>

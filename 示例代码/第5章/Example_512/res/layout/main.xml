@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <!-- 显示progressBarStyleHorizontal的TextView -->
+    <TextView
+        android:id="@+id/textviewHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="progressBarStyleHorizontal" /> 
+         
+    <ProgressBar android:id="@+id/progressBarStyleHorizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:secondaryProgress="75" /> 
+     <!-- 显示progressBarStyleLarge的TextView -->
+    <TextView android:id="@+id/textviewLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="progressBarStyleLarge" />
+     <!-- 大圈的ProgressBar-->     
+    <ProgressBar android:id="@+id/progressBarStyleLarge"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:secondaryProgress="75" /> 
+     <!-- 显示progressBarStyleSmall的TextView -->   
+     <TextView android:id="@+id/textviewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="progressBarStyleSmall" />  
+     <!-- 小圆圈的ProgressBar-->    
+     <ProgressBar android:id="@+id/progressBarStyleSmall"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:secondaryProgress="75" /> 
+        <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control" />   
+</LinearLayout>
+

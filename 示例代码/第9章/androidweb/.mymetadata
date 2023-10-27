@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="androidweb"
+  id="myeclipse.1414545441923"
+  context-root="/androidweb"
+  j2ee-spec="6.0"
+  archive="androidweb.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

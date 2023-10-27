@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip">
+  <TextView android:id="@+id/lable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="请输入用户名："/>
+  <EditText android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="100dip"
+            android:layout_y="20dip"/>
+  <Button android:id="@+id/cancel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="10dip"
+          android:layout_y="50dip"
+          android:text="取消"/>
+  <Button android:id="@+id/ok"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="60dip"
+          android:layout_y="50dip"
+          android:text="确定"/>
+</AbsoluteLayout>

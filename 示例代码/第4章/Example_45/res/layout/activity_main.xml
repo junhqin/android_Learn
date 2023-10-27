@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/tag"
+        android:name="com.godxj.fragments.fragmentsview.TagFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+     
+    <!--
+    <fragment
+        android:id="@+id/details"
+        android:name="com.godxj.fragments.fragmentsview.DetailFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3.5" />
+       -->
+
+    <FrameLayout
+        android:id="@+id/details_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3.5" />
+
+</LinearLayout>

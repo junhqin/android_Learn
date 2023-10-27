@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/send_dynamic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/send_static"
+        android:layout_below="@+id/send_static"
+        android:layout_marginTop="28dp"
+        android:text="发送动态注册广播" />
+
+    <ToggleButton
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/send_static"
+        android:layout_marginTop="29dp"
+        android:textOff="动态注册接收器"
+        android:textOn="解除动态注册" />
+
+    <Button
+        android:id="@+id/send_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="发送静态注册广播" />
+
+</RelativeLayout>

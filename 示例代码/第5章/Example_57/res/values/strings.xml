@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Example 5-7 CheckBox</string>
+	<string name="Ttile">请选择喜欢的情景模式</string>   
+    <string name="Profile1">上班模式</string>   
+    <string name="Profile2">家庭模式</string>   
+    <string name="Profile3">旅游模式</string>   
+    <string name="Profile4">会议模式</string>    
+    <string name="Submit">Submit</string>   
+</resources>
